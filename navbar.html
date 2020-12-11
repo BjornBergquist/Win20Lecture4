@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Navbar Exempel</title>
+    <link rel="stylesheet" href="boot.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+    <div class="container">
+      <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8 text-light">
+            <h1 class="text-center">Navbar</h1>
+            <br>
+            <p>
+              Ni har redan jobbat en del med nav i HTML. Dock kommer navbar-klassen i Bootstrap med en del inbyggd responsivitet som hade gräv en hel del arbete med att få till om vi hade gjort den själva. 
+            </p>
+            <p>
+              Vanligt är att navbaren är en listgroup för datorer medan en collapse för telefoner. 
+            </p>
+            <br>
+          </div>
+          <div class="col-2"></div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-xs-1-12">
+          <!-- Navbar  exempel -->
+
+          <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <!-- Slut på exempel -->
+        </div>     
+      </div>
+    </div>
+    <br>
+
+      
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col d-flex justify-content-center"> <nav aria-label="Page navigation">
+          <ul class="pagination pagination-centered">
+            <li class="page-item">
+              <a class="page-link" href="collapse.html" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="boot.html">1</a></li>
+            <li class="page-item" ><a class="page-link" href="jumbo.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="pagi.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="listgroup.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="card.html">5</a></li>
+            <li class="page-item"><a class="page-link" href="dropdown.html">6</a></li>
+            <li class="page-item"><a class="page-link" href="collapse.html">7</a></li>
+            <li class="page-item active"><a class="page-link" href="navbar.html">8</a></li>
+            <li class="page-item"><a class="page-link" href="carousel.html">9</a></li>
+            <li class="page-item"><a class="page-link" href="tooltip.html">10</a></li>
+            <li class="page-item"><a class="page-link" href="scrollspy.html">11</a></li>
+            <li class="page-item">
+              <a class="page-link" href="carousel.html" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav></div>
+        <div class="col"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
